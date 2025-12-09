@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividade-->
+    <title>Ecos da Floresta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ 
+ 
+    <div class="game-container">
+ 
+        <div id="menuInicial">
+    <h1 class="tituloMenu">Ecos da Floresta</h1>
+    <button id="btnJogar">Jogar</button>
+     </div>
+       
+        <div id="hud-pontuacao">SCORE: 0</div>
+ 
+        <div id="teleporteFase10" class="teleporte hidden"></div>
+ 
+        <img id="bg" class="background" src="imagens/background1.png">
+       
+      <div id="npc1" class="npc hidden"></div>
+      <div id="npc2" class="npc hidden"></div>
+     
+      <img class="player" src="imagens/Player0.gif" alt="Jogador">
+ 
+   
+       <!-- ITENS -->
+        <!--Fase1 -->
+<div id="item_f1_1" class="item hidden"></div>
+<div id="item_f1_2" class="item hidden"></div>
+ <!-- Fase2 -->
+<div id="item_f2_1" class="item hidden"></div>
+<div id="item_f2_2" class="item hidden"></div>
+<div id="item_f2_3" class="item hidden"></div>
+<div id="item_f2_4" class="item hidden"></div>
+<div id="item_f2_5" class="item hidden"></div>
+<div id="item_f2_6" class="item hidden"></div>
+<div id="item_f2_7" class="item hidden"></div>
+<div id="item_f2_8" class="item hidden"></div>
+<div id="item_f2_9" class="item hidden"></div>
+<div id="item_f2_10" class="item hidden"></div>
+<div id="item_f2_11" class="item hidden"></div>
+<!-- Fase 10 -->
+<div id="item_f10_1" class="item hidden"></div>
+<div id="item_f10_2" class="item hidden"></div>
+<div id="item_f10_3" class="item hidden"></div>
+<div id="item_f10_4" class="item hidden"></div>
+<div id="item_f10_5" class="item hidden"></div>
+<div id="item_f10_6" class="item hidden"></div>
+<div id="item_f10_7" class="item hidden"></div>
+<div id="item_f10_8" class="item hidden"></div>
+<div id="item_f10_9" class="item hidden"></div>
+<div id="item_f10_10" class="item hidden"></div>
+<!-- Fase3 -->
+<div id="item_f3_1" class="item hidden"></div>
+<div id="item_f3_2" class="item hidden"></div>
+<div id="item_f3_3" class="item hidden"></div>
+<div id="item_f3_4" class="item hidden"></div>
+<!-- Fase4 -->
+<div id="item_f4_1" class="item hidden"></div>
+<div id="item_f4_2" class="item hidden"></div>
+<div id="item_f4_3" class="item hidden"></div>
+<div id="item_f4_4" class="item hidden"></div>
+<div id="item_f4_5" class="item hidden"></div>
+<div id="item_f4_6" class="item hidden"></div>
+<div id="item_f4_7" class="item hidden"></div>
+<div id="item_f4_8" class="item hidden"></div>
+<div id="item_f4_9" class="item hidden"></div>
+<div id="item_f4_10" class="item hidden"></div>
+<div id="item_f4_11" class="item hidden"></div>
+<div id="item_f4_12" class="item hidden"></div>
+<div id="item_f4_13" class="item hidden"></div>
+ <!-- Fase5 -->
+<div id="item_f5_1" class="item hidden"></div>
+<div id="item_f5_2" class="item hidden"></div>
+<div id="item_f5_3" class="item hidden"></div>
+<div id="item_f5_4" class="item hidden"></div>
+ <!-- Fase6 -->
+<div id="item_f6_1" class="item hidden"></div>
+<div id="item_f6_2" class="item hidden"></div>
+<div id="item_f6_3" class="item hidden"></div>
+<div id="item_f6_4" class="item hidden"></div>
+<div id="item_f6_5" class="item hidden"></div>
+<div id="item_f6_6" class="item hidden"></div>
+<!-- Fase7 -->
+<div id="item_f7_1" class="item hidden"></div>
+<div id="item_f7_2" class="item hidden"></div>
+<div id="item_f7_3" class="item hidden"></div>
+<div id="item_f7_4" class="item hidden"></div>
+ 
+       <!-- PLATAFORMAS DA FASE 2 -->
+<div id="plataforma1" class="plataforma hidden"></div>
+<div id="plataforma2" class="plataforma hidden"></div>
+<div id="plataforma3" class="plataforma hidden"></div>
+<div id="plataforma4" class="plataforma hidden"></div>
+<div id="plataforma5" class="plataforma hidden"></div>
+<div id="plataforma6" class="plataforma hidden"></div>
+<div id="plataforma7" class="plataforma hidden"></div>
+ 
+
+        <!-- Caixas de diálogo -->
+        <div class="dialog-box hidden">
+           
+            <img class="portrait" src="imagens/Curupira1.png" alt="Curupira">
+ 
+            <div class="dialog-content">
+                <h2 class="dialog-name"></h2>
+                <p class="dialog-text"></p>
+            </div>
+        </div>
+       
+       <!-- TELA FINAL DO JOGO -->
+<div id="telaFinalJogo" class="hidden">
+    <h1 id="textoFinal"></h1>
+
+    <img id="imagemFinalJogo" src="">
+
+    <button id="btnReiniciar">Jogar Novamente</button>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
