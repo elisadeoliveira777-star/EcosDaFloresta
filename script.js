@@ -456,16 +456,16 @@ teleporte10.style.bottom = "730px"; // Ponto onde o player encosta para voltar
 // ===============================================================
 const dialogos = {
     3: [
-        { nome: "Onça", texto: "Ei Curupira! Quem está te seguindo?", imagem: "imagens/onça1.png" },
+        { nome: "Onça", texto: "Ei Curupira! Quem está te seguindo?", imagem: "imagens/Onça1.png" },
         { nome: "Curupira", texto: "Não se preocupe, é amigo", imagem: "imagens/Curupira2.png" },
-        { nome: "Onça", texto: "Amigo? Você tem mania de chamar qualquer um assim! Aposto que acabou de conhecê-lo!", imagem: "imagens/onça1.png" },
+        { nome: "Onça", texto: "Amigo? Você tem mania de chamar qualquer um assim! Aposto que acabou de conhecê-lo!", imagem: "imagens/Onça1.png" },
         { nome: "Curupira", texto: " ...", imagem: "imagens/Curupira8.png"},
         { nome: "Curupira", texto: "Talvez...", imagem: "imagens/Curupira7.png"},
-        { nome: "Onça", texto: "CHEGA! Eu mesma vou testa-lo!", imagem: "imagens/onça2.png"},
-        { nome: "Onça", texto: "Ei estranho! Vou te fazer perguntas! Você tem 25 segundos para responder cada uma!", imagem: "imagens/onça2.png"},
-        { nome: "Onça", texto: "...E eu não vou te ajudar com o tempo!", imagem: "imagens/onça1.png"},
+        { nome: "Onça", texto: "CHEGA! Eu mesma vou testa-lo!", imagem: "imagens/Onça2.png"},
+        { nome: "Onça", texto: "Ei estranho! Vou te fazer perguntas! Você tem 25 segundos para responder cada uma!", imagem: "imagens/Onça2.png"},
+        { nome: "Onça", texto: "...E eu não vou te ajudar com o tempo!", imagem: "imagens/Onça1.png"},
         { nome: "Curupira", texto: "Se prepare...", imagem: "imagens/Curupira3.png"},
-        { nome: "Curupira", texto: " ! ", imagem: "imagens/onça1.png"},
+        { nome: "Curupira", texto: " ! ", imagem: "imagens/Onça1.png"},
  
     ],
     5: [
@@ -1250,4 +1250,5 @@ if (faseAtual === 10) {
     verificarColeta();
  
 }, 20);
+
  
