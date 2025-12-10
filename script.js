@@ -816,6 +816,10 @@ function iniciarDialogoInicial() {
 
     mostrarDialogo();
 }
+
+document.getElementById('feedbackButton').addEventListener('click', () => {
+    window.open('https://seulink.com/formulario', '_blank');
+});
  
 // ===============================================================
 //   CONTROLE DO DIÁLOGO (TECLA SPACE)
@@ -1084,6 +1088,7 @@ btnJogar.addEventListener("click", () => {
     // INICIAR DIÁLOGO INICIAL AQUI
     iniciarDialogoInicial();
 });
+
  
 // ===============================================================
 //  LOOP PRINCIPAL DE FÍSICA DO PLAYER
@@ -1252,3 +1257,4 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
