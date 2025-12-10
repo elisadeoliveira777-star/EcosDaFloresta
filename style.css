@@ -306,6 +306,14 @@ body {
     color: black;
 }
 
+.finalButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* aqui sim o gap funciona */
+}
+
+
 
 
 
