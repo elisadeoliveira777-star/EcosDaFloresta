@@ -818,7 +818,7 @@ function iniciarDialogoInicial() {
 }
 
 document.getElementById('feedbackButton').addEventListener('click', () => {
-    window.open('https://docs.google.com/forms/d/1GPCf4yEQO9fcS9LOiLvRrg7hQeNaadPlLzghPjRQrCQ/edit', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdi7wI4-SNXjr5wU0FL654On_sUMCDxGiyF9f12itvTt6JwFg/viewform?usp=publish-editor', '_blank');
 });
  
 // ===============================================================
@@ -1257,5 +1257,6 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
