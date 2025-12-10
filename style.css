@@ -296,10 +296,11 @@ body {
 
 }
 #feedbackButton {
-    /* mesmo estilo do restartButton */
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 20px 40px;
+    font-size: 28px;
     cursor: pointer;
     border-radius: 10px;
     border: none;
-}
+    background: white;
+    color: black;
+
