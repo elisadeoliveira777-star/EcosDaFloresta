@@ -160,7 +160,7 @@ let finalAtivado = false;
 // MÚSICA GLOBAL DO JOGO
 // ======================
 const musicaGlobal = new Audio("sounds/ambiente/ForestExpl1.mp3");
-musicaGlobal.volume = 0.7;
+musicaGlobal.volume = 0.6;
 musicaGlobal.loop = true;
  
 //Música Menu
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
