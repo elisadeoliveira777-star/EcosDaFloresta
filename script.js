@@ -39,7 +39,7 @@ const bancoPerguntasNPC1 = [
         correta: 1
     },
     {
-        pergunta: "Qual desses animais é encontrado somente na floresta amazônica?",
+        pergunta: "Qual desses animais é encontrado somente na floresta amazônicssa?",
         alternativas: ["Boto-cor-de-rosa", "Onça-pintada", "Sucuri-verde"],
         correta: 0
     },
@@ -397,7 +397,7 @@ const plataformasPorFase = {
  
 //Pegar Itens
 const somColeta = new Audio("sounds/sfx/Coin.mp3");
-somColeta.volume = 0.5;
+somColeta.volume = 0.7;
  
 function pegarItem(item) {
     let valor = Number(item.dataset.valor) || 1;
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
