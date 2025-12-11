@@ -124,7 +124,7 @@ const bancoPerguntasNPC1 = [
         correta: 2
     },
     {
-        pergunta: "Qual desses animais costuma ser ameaçado pela caça ilegal?",
+        pergunta: "Qual desses animais costuma ser ameaçado pela caça ilegal no Brasil?",
         alternativas: ["Onça-parda", "Lebre-europeia", "Jaguatirica"],
         correta: 0
     },
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
