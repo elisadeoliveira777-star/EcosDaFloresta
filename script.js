@@ -165,7 +165,7 @@ musicaGlobal.loop = true;
  
 //Música Menu
 const menuMusic = new Audio("sounds/ambiente/Theme1.mp3");
-menuMusic.volume = 0.7;
+menuMusic.volume = 0.5;
 menuMusic.loop = true;
  
 // =====================================
@@ -178,8 +178,8 @@ const somAmbienteExtra = new Audio();
 musicaAmbiente.loop = true;
 somAmbienteExtra.loop = true;
  
-musicaAmbiente.volume = 0.3;  
-somAmbienteExtra.volume = 0.3;
+musicaAmbiente.volume = 0.4;  
+somAmbienteExtra.volume = 0.4;
  
 // Lista de músicas por fase
 const sonsPorFase = {
@@ -236,9 +236,9 @@ const sfx = {
 };
  
 // Volumes
-sfx.pulo.volume = 0.7;
+sfx.pulo.volume = 0.5;
 sfx.passo.volume = 0.9;
-sfx.dialogo.volume = 0.7;
+sfx.dialogo.volume = 0.5;
  
 // Controle de intervalo entre passos
 let lastFootstepTime = 0;
@@ -397,7 +397,7 @@ const plataformasPorFase = {
  
 //Pegar Itens
 const somColeta = new Audio("sounds/sfx/Coin.mp3");
-somColeta.volume = 0.7;
+somColeta.volume = 0.5;
  
 function pegarItem(item) {
     let valor = Number(item.dataset.valor) || 1;
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
