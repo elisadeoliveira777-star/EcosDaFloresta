@@ -160,12 +160,12 @@ let finalAtivado = false;
 // MÚSICA GLOBAL DO JOGO
 // ======================
 const musicaGlobal = new Audio("sounds/ambiente/ForestExpl1.mp3");
-musicaGlobal.volume = 0.4;
+musicaGlobal.volume = 0.7;
 musicaGlobal.loop = true;
  
 //Música Menu
 const menuMusic = new Audio("sounds/ambiente/Theme1.mp3");
-menuMusic.volume = 0.3;
+menuMusic.volume = 0.7;
 menuMusic.loop = true;
  
 // =====================================
@@ -178,7 +178,7 @@ const somAmbienteExtra = new Audio();
 musicaAmbiente.loop = true;
 somAmbienteExtra.loop = true;
  
-musicaAmbiente.volume = 0.2;  
+musicaAmbiente.volume = 0.3;  
 somAmbienteExtra.volume = 0.3;
  
 // Lista de músicas por fase
@@ -236,9 +236,9 @@ const sfx = {
 };
  
 // Volumes
-sfx.pulo.volume = 0.1;
+sfx.pulo.volume = 0.7;
 sfx.passo.volume = 0.9;
-sfx.dialogo.volume = 0.1;
+sfx.dialogo.volume = 0.7;
  
 // Controle de intervalo entre passos
 let lastFootstepTime = 0;
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
