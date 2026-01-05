@@ -23,7 +23,7 @@ const imagensParaCarregar = [
     "imagens/personagem_andando.gif",
     "imagens/background1.png",
     "imagens/npc1.png",
-    // coloque todas as outras imagens aqui
+    
 ];
 
 imagensParaCarregar.forEach(src => {
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
