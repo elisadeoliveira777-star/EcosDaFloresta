@@ -747,7 +747,7 @@ function mostrarDialogo() {
 // Final do Jogo (versão corrigida)
 function ativarFinalDoJogo() {
 
-    // Pausar os players principais que você declarou (sem usar window)
+    // Pausar os players principais 
     [
       menuMusic,
       musicaGlobal,
@@ -764,17 +764,17 @@ function ativarFinalDoJogo() {
         } catch(e){}
     });
 
-    // Pause SFX usados no jogo (usa o objeto sfx que você declarou)
+    // Pausar SFX usados no jogo 
     if (sfx) {
         try { if (sfx.passo)  { sfx.passo.pause();  sfx.passo.currentTime = 0; } } catch(e){}
         try { if (sfx.pulo)   { sfx.pulo.pause();   sfx.pulo.currentTime = 0; } } catch(e){}
         try { if (sfx.dialogo){ sfx.dialogo.pause(); sfx.dialogo.currentTime = 0; } } catch(e){}
     }
 
-    // Garantir que não exista som ambiente "ativo" marcado
+    // Garantir que não exista som ambiente ativo
     try { faseTocando = null; } catch(e){}
 
-    // Certifica-se de que os players de ambiente estejam zerados
+    // Players de ambiente estejam zerados?
     try { musicaAmbiente.pause(); musicaAmbiente.currentTime = 0; } catch(e){}
     try { somAmbienteExtra.pause(); somAmbienteExtra.currentTime = 0; } catch(e){}
 
@@ -782,7 +782,7 @@ function ativarFinalDoJogo() {
     finalAtivado = true;
     indiceDialogo = 0;
 
-    // Para música global também (você já fazia)
+    // Para música global
     try { musicaGlobal.pause(); musicaGlobal.currentTime = 0; } catch(e){}
 
     // Escolher final e tocar a música do final
@@ -1237,7 +1237,7 @@ if (faseAtual === 10) {
         pTop > tpBottom &&
         pBottom < tpBottom + tpHeight
     ) {
-        // TELEPORTOU! Volta para a fase 2
+        // Teleporteeee! Volta para a fase 2
         mudarFase(2);
         playerBottom = 300;            // aparece caindo
         playerX = 1000;
@@ -1257,6 +1257,7 @@ if (faseAtual === 10) {
 }, 20);
 
  
+
 
 
 
